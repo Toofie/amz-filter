@@ -1,0 +1,1121 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion">1.1</property>
+  <property name="Appearance" isnull="true" iskey="true">
+    <property name="HeaderPanel" iskey="true" value="HeaderPanel">
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseFont">true</property>
+      </property>
+      <property name="Font">Microsoft Sans Serif, 10pt</property>
+    </property>
+    <property name="Row" iskey="true" value="Row">
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseFont">true</property>
+      </property>
+      <property name="Font">Microsoft Sans Serif, 10pt</property>
+    </property>
+  </property>
+  <property name="OptionsDetail" isnull="true" iskey="true">
+    <property name="EnableMasterViewMode">false</property>
+  </property>
+  <property name="OptionsSelection" isnull="true" iskey="true">
+    <property name="MultiSelectMode">CellSelect</property>
+    <property name="MultiSelect">true</property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ColumnAutoWidth">false</property>
+    <property name="ColumnHeaderAutoHeight">True</property>
+    <property name="ShowGroupPanel">false</property>
+  </property>
+  <property name="OptionsMenu" isnull="true" iskey="true">
+    <property name="ShowConditionalFormattingItem">true</property>
+    <property name="EnableGroupPanelMenu">false</property>
+  </property>
+  <property name="FixedLineWidth">2</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="HorzScrollVisibility">Always</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="RowHeight">-1</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="ChildGridLevelName" />
+  <property name="VertScrollTipFieldName" />
+  <property name="PreviewFieldName" />
+  <property name="GroupPanelText" />
+  <property name="NewItemRowText" />
+  <property name="LevelIndent">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="HorzScrollStep">0</property>
+  <property name="OptionsClipboard" isnull="true" iskey="true">
+    <property name="CopyColumnHeaders">False</property>
+  </property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="Columns" iskey="true" value="61">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Name">colASIN</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">ASIN</property>
+      <property name="Fixed">Left</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">100</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Name">colTitle</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Title</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="Width">400</property>
+      <property name="MinWidth">125</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Name">colSalesRank</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Equals</property>
+      </property>
+      <property name="FieldName">SalesRank</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">{0:#,###}</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Name">colBuyBoxCost</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">GreaterOrEqual</property>
+      </property>
+      <property name="FieldName">BuyBoxCost</property>
+      <property name="ColumnEditName" />
+      <property name="Width">55</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Name">colShippingCost</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">ShippingCost</property>
+      <property name="ColumnEditName" />
+      <property name="Width">72</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Name">colProductID</property>
+      <property name="FieldName">ProductID</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">107</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Name">colProfit</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Greater</property>
+      </property>
+      <property name="FieldName">Profit</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">10</property>
+      <property name="Visible">true</property>
+      <property name="Width">51</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+      <property name="UnboundType">Decimal</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Name">colReferralFee</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">ReferralFee</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">18</property>
+      <property name="Visible">true</property>
+      <property name="Width">90</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">colROI</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">GreaterOrEqual</property>
+      </property>
+      <property name="FieldName">ROI</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">12</property>
+      <property name="Visible">true</property>
+      <property name="Width">70</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">p</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="UnboundType">Decimal</property>
+      <property name="UnboundExpression">0</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Name">colCostToEstimateFees</property>
+      <property name="FieldName">CostToEstimateFees</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">17</property>
+      <property name="Visible">true</property>
+      <property name="Width">154</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Name">colPurchasePrice</property>
+      <property name="FieldName">PurchasePrice</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">13</property>
+      <property name="Visible">true</property>
+      <property name="Width">108</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="Name">colVariableClosingFee</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">VariableClosingFee</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">19</property>
+      <property name="Visible">true</property>
+      <property name="Width">152</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="Name">colMarginImpact</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">MarginImpact</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">22</property>
+      <property name="Visible">true</property>
+      <property name="Width">106</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Name">colFulfillmentSubtotal</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">FulfillmentSubtotal</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">20</property>
+      <property name="Visible">true</property>
+      <property name="Width">133</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="Name">colInboundShippingEstimate</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+        <property name="ReadOnly">true</property>
+      </property>
+      <property name="FieldName">InboundShippingEstimate</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">23</property>
+      <property name="Visible">true</property>
+      <property name="Width">183</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Name">colCostSubTotal</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">CostSubTotal</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">21</property>
+      <property name="Visible">true</property>
+      <property name="Width">109</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="Name">colBuyBoxLanded</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">BuyBoxLanded</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">14</property>
+      <property name="Visible">true</property>
+      <property name="Width">120</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="Name">colIsAmazonFulfilled</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">IsAmazonFulfilled</property>
+      <property name="ColumnEditName" />
+      <property name="Width">48</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="Name">colDescription</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Description</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="Name">colFeatures</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Features</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="Name">colReviewsUrl</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">ReviewsUrl</property>
+      <property name="ColumnEditName" />
+      <property name="Width">1196</property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="Name">colItemLength</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Item Length</property>
+      <property name="FieldName">ItemLength_d</property>
+      <property name="ColumnEditName" />
+      <property name="Width">80</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">{0:#,##0.00}</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="Name">colItemWidth</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Item Width</property>
+      <property name="FieldName">ItemWidth_d</property>
+      <property name="ColumnEditName" />
+      <property name="Width">80</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">{0:#,##0.00}</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+    </property>
+    <property name="Item24" isnull="true" iskey="true">
+      <property name="Name">colItemHeight</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Item Height</property>
+      <property name="FieldName">ItemHeight_d</property>
+      <property name="ColumnEditName" />
+      <property name="Width">80</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">{0:#,##0.00}</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+    </property>
+    <property name="Item25" isnull="true" iskey="true">
+      <property name="Name">colItemWeight</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Item Weight</property>
+      <property name="FieldName">ItemWeight_d</property>
+      <property name="ColumnEditName" />
+      <property name="Width">80</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">{0:#,##0.00}</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+    </property>
+    <property name="Item26" isnull="true" iskey="true">
+      <property name="Name">colPackageLength</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Package Lenght</property>
+      <property name="FieldName">PackageLength_d</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">26</property>
+      <property name="Visible">true</property>
+      <property name="Width">80</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">{0:#,##0.00}</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+    </property>
+    <property name="Item27" isnull="true" iskey="true">
+      <property name="Name">colPackageWidth</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Package Width</property>
+      <property name="FieldName">PackageWidth_d</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">27</property>
+      <property name="Visible">true</property>
+      <property name="Width">80</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">{0:#,##0.00}</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+    </property>
+    <property name="Item28" isnull="true" iskey="true">
+      <property name="Name">colPackageHeight</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Package Height</property>
+      <property name="FieldName">PackageHeight_d</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">25</property>
+      <property name="Visible">true</property>
+      <property name="Width">80</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">{0:#,##0.00}</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+    </property>
+    <property name="Item29" isnull="true" iskey="true">
+      <property name="Name">colPackageWeight</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Package Weight</property>
+      <property name="FieldName">PackageWeight_d</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">24</property>
+      <property name="Visible">true</property>
+      <property name="Width">80</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">{0:#,##0.00}</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+    </property>
+    <property name="Item30" isnull="true" iskey="true">
+      <property name="Name">colAspectRatio</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">AspectRatio</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item31" isnull="true" iskey="true">
+      <property name="Name">colBrand</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Brand</property>
+      <property name="ColumnEditName" />
+      <property name="Width">64</property>
+    </property>
+    <property name="Item32" isnull="true" iskey="true">
+      <property name="Name">colColor</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Color</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item33" isnull="true" iskey="true">
+      <property name="Name">colDepartment</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Department</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item34" isnull="true" iskey="true">
+      <property name="Name">colEAN</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">EAN</property>
+      <property name="ColumnEditName" />
+      <property name="Width">117</property>
+    </property>
+    <property name="Item35" isnull="true" iskey="true">
+      <property name="Name">colISBN</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">ISBN</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item36" isnull="true" iskey="true">
+      <property name="Name">colManufacturer</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Manufacturer</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item37" isnull="true" iskey="true">
+      <property name="Name">colModel</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Model</property>
+      <property name="ColumnEditName" />
+      <property name="Width">52</property>
+    </property>
+    <property name="Item38" isnull="true" iskey="true">
+      <property name="Name">colMPN</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">MPN</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item39" isnull="true" iskey="true">
+      <property name="Name">colPackageQuantity</property>
+      <property name="Caption">Package Quantity</property>
+      <property name="FieldName">PackageQuantity_d</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">28</property>
+      <property name="Visible">true</property>
+      <property name="Width">80</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">{0:#,##0}</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+    </property>
+    <property name="Item40" isnull="true" iskey="true">
+      <property name="Name">colPartNumber</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">PartNumber</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item41" isnull="true" iskey="true">
+      <property name="Name">colProductGroup</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">ProductGroup</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="Width">140</property>
+    </property>
+    <property name="Item42" isnull="true" iskey="true">
+      <property name="Name">colProductTypeName</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">ProductTypeName</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item43" isnull="true" iskey="true">
+      <property name="Name">colPublisher</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Publisher</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item44" isnull="true" iskey="true">
+      <property name="Name">colSize</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Size</property>
+      <property name="ColumnEditName" />
+      <property name="Width">38</property>
+    </property>
+    <property name="Item45" isnull="true" iskey="true">
+      <property name="Name">colSKU</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">SKU</property>
+      <property name="ColumnEditName" />
+    </property>
+    <property name="Item46" isnull="true" iskey="true">
+      <property name="Name">colCategoryPath</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">CategoryPath</property>
+      <property name="ColumnEditName" />
+      <property name="Width">108</property>
+    </property>
+    <property name="Item47" isnull="true" iskey="true">
+      <property name="Name">colUPC</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">UPC</property>
+      <property name="ColumnEditName" />
+      <property name="Width">109</property>
+    </property>
+    <property name="Item48" isnull="true" iskey="true">
+      <property name="Name">colProductPageLink</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Greater</property>
+      </property>
+      <property name="Caption">Amazon Link</property>
+      <property name="FieldName">colProductPageLink</property>
+      <property name="ColumnEditName">rihleProductPageLink</property>
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+      <property name="Width">275</property>
+      <property name="UnboundType">String</property>
+    </property>
+    <property name="Item49" isnull="true" iskey="true">
+      <property name="Name">colLowNewFbaNumOffers</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Less</property>
+      </property>
+      <property name="Caption">New FBA Num Offers</property>
+      <property name="FieldName">LowNewFbaNumOffers</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">30</property>
+      <property name="Visible">true</property>
+      <property name="Width">145</property>
+    </property>
+    <property name="Item50" isnull="true" iskey="true">
+      <property name="Name">colLowNewFbaPrice</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">LowNewFbaPrice</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">15</property>
+      <property name="Visible">true</property>
+      <property name="Width">139</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item51" isnull="true" iskey="true">
+      <property name="Name">colLowNewMfnNumOffers</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">New MFN Num Offers</property>
+      <property name="FieldName">LowNewMfnNumOffers</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">31</property>
+      <property name="Visible">true</property>
+      <property name="Width">148</property>
+    </property>
+    <property name="Item52" isnull="true" iskey="true">
+      <property name="Name">colLowNewMfnPrice</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">LowNewMfnPrice</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">16</property>
+      <property name="Visible">true</property>
+      <property name="Width">133</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">c</property>
+        <property name="FormatType">Custom</property>
+      </property>
+    </property>
+    <property name="Item53" isnull="true" iskey="true">
+      <property name="Name">colTotalOffers</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">TotalOffers</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">29</property>
+      <property name="Visible">true</property>
+      <property name="Width">89</property>
+    </property>
+    <property name="Item54" isnull="true" iskey="true">
+      <property name="Name">colRating</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">Rating</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+    </property>
+    <property name="Item55" isnull="true" iskey="true">
+      <property name="Name">colKeepaLink</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Keepa</property>
+      <property name="FieldName">KeepaLink</property>
+      <property name="ColumnEditName">rihleKeepaLink</property>
+      <property name="VisibleIndex">32</property>
+      <property name="Visible">true</property>
+      <property name="Width">300</property>
+      <property name="UnboundType">String</property>
+    </property>
+    <property name="Item56" isnull="true" iskey="true">
+      <property name="Name">colIsSoldByAmazon</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="OptionsFilter" isnull="true" iskey="true">
+        <property name="AutoFilterCondition">Equals</property>
+      </property>
+      <property name="FieldName">IsSoldByAmazon</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="Width">132</property>
+    </property>
+    <property name="Item57" isnull="true" iskey="true">
+      <property name="Name">colCCCLink</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">CamelCC</property>
+      <property name="FieldName">colCCCLink</property>
+      <property name="ColumnEditName">rihleCCCLink</property>
+      <property name="VisibleIndex">33</property>
+      <property name="Visible">true</property>
+      <property name="Width">359</property>
+      <property name="UnboundType">String</property>
+    </property>
+    <property name="Item58" isnull="true" iskey="true">
+      <property name="Name">colNumReviews</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">NumReviews</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">8</property>
+      <property name="Visible">true</property>
+      <property name="Width">101</property>
+    </property>
+    <property name="Item59" isnull="true" iskey="true">
+      <property name="Name">colMargin</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Margin</property>
+      <property name="FieldName">margin</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">11</property>
+      <property name="Visible">true</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">p</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="UnboundType">Decimal</property>
+      <property name="UnboundExpression">0</property>
+    </property>
+    <property name="Item60" isnull="true" iskey="true">
+      <property name="Name">colSelectAllRows</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ShowCaption">false</property>
+        <property name="AllowMove">false</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowSort">False</property>
+        <property name="AllowMerge">False</property>
+        <property name="AllowSize">false</property>
+        <property name="FixedWidth">true</property>
+      </property>
+      <property name="FieldName">isSelected</property>
+      <property name="Fixed">Left</property>
+      <property name="ColumnEditName">chkSelectAllRow</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">31</property>
+    </property>
+    <property name="Item61" isnull="true" iskey="true">
+      <property name="Name">colLastRun</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="Caption">Last Run</property>
+      <property name="FieldName">LastRun</property>
+      <property name="ColumnEditName" />
+      <property name="VisibleIndex">34</property>
+      <property name="Visible">true</property>
+      <property name="Width">108</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">MM/dd/yyyy hh:mm:ss tt</property>
+        <property name="FormatType">DateTime</property>
+      </property>
+    </property>
+  </property>
+  <property name="ViewCaption" />
+  <property name="BorderStyle">Default</property>
+  <property name="SynchronizeClones">true</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="Name">gridView1</property>
+  <property name="DetailHeight">350</property>
+  <property name="Tag" isnull="true" />
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="ActiveFilterString">(StartsWith([ProductGroup], 'Toy') And [SalesRank] &lt; 80000 Or StartsWith([ProductGroup], 'Sports') And [SalesRank] &lt; 50000 Or StartsWith([ProductGroup], 'Art') And [SalesRank] &lt; 40000 Or StartsWith([ProductGroup], 'Baby') And [SalesRank] &lt; 20000 Or StartsWith([ProductGroup], 'Beauty') And [SalesRank] &lt; 100000 Or [ProductGroup] = 'Biss' And [SalesRank] &lt; 100000 Or StartsWith([ProductGroup], 'Boost') And [SalesRank] &lt; 100000 Or StartsWith([ProductGroup], 'Dvd') And [SalesRank] &lt; 100000 Or StartsWith([ProductGroup], 'Fashion') And [SalesRank] &lt; 100000 Or StartsWith([ProductGroup], 'Grocery') And [SalesRank] &lt; 70000 Or StartsWith([ProductGroup], 'Health') And [SalesRank] &lt; 110000 Or StartsWith([ProductGroup], 'Home Garden') And [SalesRank] &lt; 70000 Or StartsWith([ProductGroup], 'Home Improvement') And [SalesRank] &lt; 120000 Or StartsWith([ProductGroup], 'Kitchen') And [SalesRank] &lt; 70000 Or StartsWith([ProductGroup], 'Office') And [SalesRank] &lt; 50000 Or StartsWith([ProductGroup], 'Sdp') And [SalesRank] &lt; 100000 Or StartsWith([ProductGroup], 'Video') And [SalesRank] &lt; 7000 Or StartsWith([ProductGroup], 'Wireless') And [SalesRank] &lt; 100000 Or [ProductGroup] = 'Biss Basic' And [SalesRank] &lt; 40000) And [Profit] &gt; 0.0m And [LowNewFbaNumOffers] &lt; 10 And [LowNewFbaNumOffers] &gt; 1</property>
+  <property name="MRUFilters">~Xtra#Base64AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFHcmlkLnYxNy4xLCBWZXJzaW9uPTE3LjEuMy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAADZEZXZFeHByZXNzLlh0cmFHcmlkLlZpZXdzLkJhc2UuTVJVVmlld0ZpbHRlckNvbGxlY3Rpb24BAAAAE0NvbGxlY3Rpb25CYXNlK2xpc3QDHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QCAAAACQMAAAAEAwAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24FAAAICAkEAAAACgAAADoAAAAQBAAAABAAAAAJBQAAAAkGAAAACQcAAAAJCAAAAAkJAAAACQoAAAAJCwAAAAkMAAAACQ0AAAAJDgAAAA0GDA8AAABZRGV2RXhwcmVzcy5EYXRhLnYxNy4xLCBWZXJzaW9uPTE3LjEuMy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFBQAAAClEZXZFeHByZXNzLlh0cmFHcmlkLlZpZXdzLkJhc2UuVmlld0ZpbHRlcgIAAAAYZk5vbkNvbHVtbkZpbHRlckNyaXRlcmlhE0NvbGxlY3Rpb25CYXNlK2xpc3QEAydEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkdyb3VwT3BlcmF0b3IPAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QCAAAACRAAAAAJEQAAAAEGAAAABQAAAAkSAAAACRMAAAABBwAAAAUAAAAJFAAAAAkVAAAAAQgAAAAFAAAACRYAAAAJFwAAAAEJAAAABQAAAAkYAAAACRkAAAABCgAAAAUAAAAJGgAAAAkbAAAAAQsAAAAFAAAACRwAAAAJHQAAAAEMAAAABQAAAAkeAAAACR8AAAABDQAAAAUAAAAJIAAAAAkhAAAAAQ4AAAAFAAAACSIAAAAJIwAAAAUQAAAAJ0RldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuR3JvdXBPcGVyYXRvcgIAAAAIb3BlcmFuZHMMT3BlcmF0b3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EAAAGt/v//2////wAAAAABaAAAABAAAAAJVAEAAAGr/v//2////wAAAAABaQAAABAAAAAJVgEAAAGp/v//2////wAAAAABagAAABAAAAAJWAEAAAGn/v//2////wAAAAABawAAABAAAAAJWgEAAAGl/v//2////wAAAAABbAAAABAAAAAJXAEAAAGj/v//2////wAAAAABbQAAABAAAAAJXgEAAAGh/v//2////wAAAAABbgAAABAAAAAJYAEAAAGf/v//2////wAAAAABbwAAABAAAAAJYgEAAAGd/v//2////wAAAAABcAAAABAAAAAJZAEAAAGb/v//2////wAAAAABcQAAABAAAAAJZgEAAAGZ/v//2////wAAAAAFcwAAACxEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuQ29sdW1uRmlsdGVySW5mbwUAAAAEVHlwZQRLaW5kC0Rpc3BsYXlUZXh0DEZpbHRlclN0cmluZwVWYWx1ZQAAAQECCAhyAAAAAQAAAAEAAAAGaAEAAAAGaQEAAA9bUHJvZml0XSA+IDAuMG0KAXUAAABzAAAAAQAAAAEAAAAJaAEAAAZrAQAANltMb3dOZXdGYmFOdW1PZmZlcnNdIDwgMTAgQW5kIFtMb3dOZXdGYmFOdW1PZmZlcnNdID4gMQoBdwAAABAAAAAJbAEAAAGT/v//2////wAAAAABeAAAABAAAAAJbgEAAAGR/v//2////wAAAAABeQAAABAAAAAJcAEAAAGP/v//2////wAAAAABegAAABAAAAAJcgEAAAGN/v//2////wAAAAABewAAABAAAAAJdAEAAAGL/v//2////wAAAAABfAAAABAAAAAJdgEAAAGJ/v//2////wAAAAABfQAAABAAAAAJeAEAAAGH/v//2////wAAAAABfgAAABAAAAAJegEAAAGF/v//2////wAAAAABfwAAABAAAAAJfAEAAAGD/v//2////wAAAAABgAAAABAAAAAJfgEAAAGB/v//2////wAAAAABgQAAABAAAAAJgAEAAAF//v//2////wAAAAABggAAABAAAAAJggEAAAF9/v//2////wAAAAABgwAAABAAAAAJhAEAAAF7/v//2////wAAAAABhAAAABAAAAAJhgEAAAF5/v//2////wAAAAABhQAAABAAAAAJiAEAAAF3/v//2////wAAAAABhgAAABAAAAAJigEAAAF1/v//2////wAAAAABhwAAABAAAAAJjAEAAAFz/v//2////wAAAAABiAAAABAAAAAJjgEAAAFx/v//2////wAAAAABiQAAABAAAAAJkAEAAAFv/v//2////wAAAAABigAAAHMAAAABAAAAAQAAAAloAQAABpMBAAAPW1Byb2ZpdF0gPiAwLjBtCgGMAAAAcwAAAAEAAAABAAAACWgBAAAGlQEAABlbTG93TmV3RmJhTnVtT2ZmZXJzXSA8IDEwCgGOAAAAcwAAAAEAAAABAAAACWgBAAAGlwEAABpbY29sUHJvZHVjdFBhZ2VMaW5rXSA+ICcxJwoBkAAAABAAAAAJmAEAAAFn/v//2////wAAAAABkQAAABAAAAAJmgEAAAFl/v//2////wAAAAABkgAAABAAAAAJnAEAAAFj/v//2////wAAAAABkwAAABAAAAAJngEAAAFh/v//2////wAAAAABlAAAABAAAAAJoAEAAAFf/v//2////wAAAAABlQAAABAAAAAJogEAAAFd/v//2////wAAAAABlgAAABAAAAAJpAEAAAFb/v//2////wAAAAABlwAAABAAAAAJpgEAAAFZ/v//2////wAAAAABmAAAABAAAAAJqAEAAAFX/v//2////wAAAAABmQAAABAAAAAJqgEAAAFV/v//2////wAAAAABmgAAABAAAAAJrAEAAAFT/v//2////wAAAAABmwAAABAAAAAJrgEAAAFR/v//2////wAAAAABnAAAABAAAAAJsAEAAAFP/v//2////wAAAAABnQAAABAAAAAJsgEAAAFN/v//2////wAAAAABngAAABAAAAAJtAEAAAFL/v//2////wAAAAABnwAAABAAAAAJtgEAAAFJ/v//2////wAAAAABoAAAABAAAAAJuAEAAAFH/v//2////wAAAAABoQAAABAAAAAJugEAAAFF/v//2////wAAAAABogAAABAAAAAJvAEAAAFD/v//2////wAAAAABowAAAHMAAAABAAAAAQAAAAloAQAABr8BAAAPW1Byb2ZpdF0gPiAwLjBtCgGlAAAAcwAAAAEAAAABAAAACWgBAAAGwQEAADZbTG93TmV3RmJhTnVtT2ZmZXJzXSA8IDEwIEFuZCBbTG93TmV3RmJhTnVtT2ZmZXJzXSA+IDAKAacAAAAQAAAACcIBAAABPf7//9v///8AAAAAAagAAAAQAAAACcQBAAABO/7//9v///8AAAAAAakAAAAQAAAACcYBAAABOf7//9v///8AAAAAAaoAAAAQAAAACcgBAAABN/7//9v///8AAAAAAasAAAAQAAAACcoBAAABNf7//9v///8AAAAAAawAAAAQAAAACcwBAAABM/7//9v///8AAAAAAa0AAAAQAAAACc4BAAABMf7//9v///8AAAAAAa4AAAAQAAAACdABAAABL/7//9v///8AAAAAAa8AAAAQAAAACdIBAAABLf7//9v///8AAAAAAbAAAAAQAAAACdQBAAABK/7//9v///8AAAAAAbEAAAAQAAAACdYBAAABKf7//9v///8AAAAAAbIAAAAQAAAACdgBAAABJ/7//9v///8AAAAAAbMAAAAQAAAACdoBAAABJf7//9v///8AAAAAAbQAAAAQAAAACdwBAAABI/7//9v///8AAAAAAbUAAAAQAAAACd4BAAABIf7//9v///8AAAAAAbYAAAAQAAAACeABAAABH/7//9v///8AAAAAAbcAAAAQAAAACeIBAAABHf7//9v///8AAAAAAbgAAAAQAAAACeQBAAABG/7//9v///8AAAAAAbkAAAAQAAAACeYBAAABGf7//9v///8AAAAAAboAAABzAAAAAQAAAAEAAAAJaAEAAAbpAQAAD1tQcm9maXRdID4gMC4wbQoBvAAAAHMAAAABAAAAAQAAAAloAQAABusBAAAZW0xvd05ld0ZiYU51bU9mZmVyc10gPCAxMAoBvgAAABAAAAAJ7AEAAAET/v//2////wAAAAABvwAAABAAAAAJ7gEAAAER/v//2////wAAAAABwAAAABAAAAAJ8AEAAAEP/v//2////wAAAAABwQAAABAAAAAJ8gEAAAEN/v//2////wAAAAABwgAAABAAAAAJ9AEAAAEL/v//2////wAAAAABwwAAABAAAAAJ9gEAAAEJ/v//2////wAAAAABxAAAABAAAAAJ+AEAAAEH/v//2////wAAAAABxQAAABAAAAAJ+gEAAAEF/v//2////wAAAAABxgAAABAAAAAJ/AEAAAED/v//2////wAAAAABxwAAABAAAAAJ/gEAAAEB/v//2////wAAAAAByAAAABAAAAAJAAIAAAH//f//2////wAAAAAByQAAABAAAAAJAgIAAAH9/f//2////wAAAAABygAAABAAAAAJBAIAAAH7/f//2////wAAAAABywAAABAAAAAJBgIAAAH5/f//2////wAAAAABzAAAABAAAAAJCAIAAAH3/f//2////wAAAAABzQAAABAAAAAJCgIAAAH1/f//2////wAAAAABzgAAABAAAAAJDAIAAAHz/f//2////wAAAAABzwAAABAAAAAJDgIAAAHx/f//2////wAAAAAB0AAAABAAAAAJEAIAAAHv/f//2////wAAAAAB0QAAAHMAAAABAAAAAQAAAAloAQAABhMCAAAPW1Byb2ZpdF0gPiAwLjBtCgHTAAAAcwAAAAEAAAABAAAACWgBAAAGFQIAABlbTG93TmV3RmJhTnVtT2ZmZXJzXSA8IDEwCgHVAAAAcwAAAAEAAAABAAAACWgBAAAGFwIAABdbSXNTb2xkQnlBbWF6b25dID0gVHJ1ZQoB1wAAABAAAAAJGAIAAAHn/f//2////wAAAAAB2AAAABAAAAAJGgIAAAHl/f//2////wAAAAAB2QAAABAAAAAJHAIAAAHj/f//2////wAAAAAB2gAAABAAAAAJHgIAAAHh/f//2////wAAAAAB2wAAABAAAAAJIAIAAAHf/f//2////wAAAAAB3AAAABAAAAAJIgIAAAHd/f//2////wAAAAAB3QAAABAAAAAJJAIAAAHb/f//2////wAAAAAB3gAAABAAAAAJJgIAAAHZ/f//2////wAAAAAB3wAAABAAAAAJKAIAAAHX/f//2////wAAAAAB4AAAABAAAAAJKgIAAAHV/f//2////wAAAAAB4QAAABAAAAAJLAIAAAHT/f//2////wAAAAAB4gAAABAAAAAJLgIAAAHR/f//2////wAAAAAB4wAAABAAAAAJMAIAAAHP/f//2////wAAAAAB5AAAABAAAAAJMgIAAAHN/f//2////wAAAAAB5QAAABAAAAAJNAIAAAHL/f//2////wAAAAAB5gAAABAAAAAJNgIAAAHJ/f//2////wAAAAAB5wAAABAAAAAJOAIAAAHH/f//2////wAAAAAB6AAAABAAAAAJOgIAAAHF/f//2////wAAAAAB6QAAABAAAAAJPAIAAAHD/f//2////wAAAAAB6gAAAHMAAAABAAAAAQAAAAloAQAABj8CAAAPW1Byb2ZpdF0gPiAwLjBtCgHsAAAAcwAAAAEAAAABAAAACWgBAAAGQQIAABlbTG93TmV3RmJhTnVtT2ZmZXJzXSA8IDEwCgHuAAAAcwAAAAEAAAABAAAACWgBAAAGQwIAABhbSXNTb2xkQnlBbWF6b25dID0gRmFsc2UKAfAAAAAQAAAACUQCAAABu/3//9v///8AAAAAAfEAAAAQAAAACUYCAAABuf3//9v///8AAAAAAfIAAAAQAAAACUgCAAABt/3//9v///8AAAAAAfMAAAAQAAAACUoCAAABtf3//9v///8AAAAAAfQAAAAQAAAACUwCAAABs/3//9v///8AAAAAAfUAAAAQAAAACU4CAAABsf3//9v///8AAAAAAfYAAAAQAAAACVACAAABr/3//9v///8AAAAAAfcAAAAQAAAACVICAAABrf3//9v///8AAAAAAfgAAAAQAAAACVQCAAABq/3//9v///8AAAAAAfkAAAAQAAAACVYCAAABqf3//9v///8AAAAAAfoAAAAQAAAACVgCAAABp/3//9v///8AAAAAAfsAAAAQAAAACVoCAAABpf3//9v///8AAAAAAfwAAAAQAAAACVwCAAABo/3//9v///8AAAAAAf0AAAAQAAAACV4CAAABof3//9v///8AAAAAAf4AAAAQAAAACWACAAABn/3//9v///8AAAAAAf8AAAAQAAAACWICAAABnf3//9v///8AAAAAAQABAAAQAAAACWQCAAABm/3//9v///8AAAAAAQEBAAAQAAAACWYCAAABmf3//9v///8AAAAAAQIBAAAQAAAACWgCAAABl/3//9v///8AAAAAAQMBAABzAAAAAQAAAAEAAAAJaAEAAAZrAgAAD1tQcm9maXRdID4gMC4wbQoBBQEAABAAAAAJbAIAAAGT/f//2////wAAAAABBgEAABAAAAAJbgIAAAGR/f//2////wAAAAABBwEAABAAAAAJcAIAAAGP/f//2////wAAAAABCAEAABAAAAAJcgIAAAGN/f//2////wAAAAABCQEAABAAAAAJdAIAAAGL/f//2////wAAAAABCgEAABAAAAAJdgIAAAGJ/f//2////wAAAAABCwEAABAAAAAJeAIAAAGH/f//2////wAAAAABDAEAABAAAAAJegIAAAGF/f//2////wAAAAABDQEAABAAAAAJfAIAAAGD/f//2////wAAAAABDgEAABAAAAAJfgIAAAGB/f//2////wAAAAABDwEAABAAAAAJgAIAAAF//f//2////wAAAAABEAEAABAAAAAJggIAAAF9/f//2////wAAAAABEQEAABAAAAAJhAIAAAF7/f//2////wAAAAABEgEAABAAAAAJhgIAAAF5/f//2////wAAAAABEwEAABAAAAAJiAIAAAF3/f//2////wAAAAABFAEAABAAAAAJigIAAAF1/f//2////wAAAAABFQEAABAAAAAJjAIAAAFz/f//2////wAAAAABFgEAABAAAAAJjgIAAAFx/f//2////wAAAAAFFwEAAChEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkJpbmFyeU9wZXJhdG9yAwAAAAxPcGVyYXRvclR5cGULTGVmdE9wZXJhbmQMUmlnaHRPcGVyYW5kBAQELERldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQmluYXJ5T3BlcmF0b3JUeXBlDwAAAClEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLk9wZXJhbmRQcm9wZXJ0eQ8AAAAmRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5PcGVyYW5kVmFsdWUPAAAADwAAAAVw/f//LERldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQmluYXJ5T3BlcmF0b3JUeXBlAQAAAAd2YWx1ZV9fAAgPAAAAAAAAAAmRAgAACZICAAABGAEAAHMAAAABAAAAAQAAAAloAQAABpQCAAAPW1Byb2ZpdF0gPiAwLjBtCgEaAQAAEAAAAAmVAgAAAWr9///b////AAAAAAEbAQAAEAAAAAmXAgAAAWj9///b////AAAAAAEcAQAAEAAAAAmZAgAAAWb9///b////AAAAAAEdAQAAEAAAAAmbAgAAAWT9///b////AAAAAAEeAQAAEAAAAAmdAgAAAWL9///b////AAAAAAEfAQAAEAAAAAmfAgAAAWD9///b////AAAAAAEgAQAAEAAAAAmhAgAAAV79///b////AAAAAAEhAQAAEAAAAAmjAgAAAVz9///b////AAAAAAEiAQAAEAAAAAmlAgAAAVr9///b////AAAAAAEjAQAAEAAAAAmnAgAAAVj9///b////AAAAAAEkAQAAEAAAAAmpAgAAAVb9///b////AAAAAAElAQAAEAAAAAmrAgAAAVT9///b////AAAAAAEmAQAAEAAAAAmtAgAAAVL9///b////AAAAAAEnAQAAEAAAAAmvAgAAAVD9///b////AAAAAAEoAQAAEAAAAAmxAgAAAU79///b////AAAAAAEpAQAAEAAAAAmzAgAAAUz9///b////AAAAAAEqAQAAEAAAAAm1AgAAAUr9///b////AAAAAAErAQAAEAAAAAm3AgAAAUj9///b////AAAAAAEsAQAAcwAAAAEAAAABAAAACWgBAAAGugIAAA9bUHJvZml0XSA+IDAuMG0KAS4BAAAQAAAACbsCAAABRP3//9v///8AAAAAAS8BAAAQAAAACb0CAAABQv3//9v///8AAAAAATABAAAQAAAACb8CAAABQP3//9v///8AAAAAATEBAAAQAAAACcECAAABPv3//9v///8AAAAAATIBAAAQAAAACcMCAAABPP3//9v///8AAAAAATMBAAAQAAAACcUCAAABOv3//9v///8AAAAAATQBAAAQAAAACccCAAABOP3//9v///8AAAAAATUBAAAQAAAACckCAAABNv3//9v///8AAAAAATYBAAAQAAAACcsCAAABNP3//9v///8AAAAAATcBAAAQAAAACc0CAAABMv3//9v///8AAAAAATgBAAAQAAAACc8CAAABMP3//9v///8AAAAAATkBAAAQAAAACdECAAABLv3//9v///8AAAAAAToBAAAQAAAACdMCAAABLP3//9v///8AAAAAATsBAAAQAAAACdUCAAABKv3//9v///8AAAAAATwBAAAQAAAACdcCAAABKP3//9v///8AAAAAAT0BAAAQAAAACdkCAAABJv3//9v///8AAAAAAT4BAAAQAAAACdsCAAABJP3//9v///8AAAAAAT8BAAAQAAAACd0CAAABIv3//9v///8AAAAAAUABAABzAAAAAQAAAAEAAAAJaAEAAAbgAgAAD1tQcm9maXRdID4gMC4wbQoBQgEAACQAAAAJ4QIAAAIAAAABAAAAAUQBAAAkAAAACeICAAACAAAAAQAAAAFGAQAAJAAAAAnjAgAAAgAAAAEAAAABSAEAACQAAAAJ5AIAAAIAAA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AAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmmAwAACacDAAANAgfmAgAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACagDAAAJqQMAAA0CB+cCAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJqgMAAAmrAwAADQIH6AIAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmsAwAACa0DAAANAgfpAgAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACa4DAAAJrwMAAA0CB+oCAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJsAMAAAmxAwAADQIH6wIAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmyAwAACbMDAAANAgfsAgAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbQDAAAJtQMAAA0CB+0CAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJtgMAAAm3AwAADQIH7gIAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm4AwAACbkDAAANAgfvAgAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACboDAAAJuwMAAA0CB/ACAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJvAMAAAm9AwAADQIH8QIAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm+AwAACb8DAAANAgfyAgAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACcADAAAJwQMAAA0CB/MCAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJwgMAAAnDAwAADQIH9AIAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnEAwAACcUDAAANAgf1AgAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACcYDAAAJxwMAAA0CB/YCAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJyAMAAAnJAwAADQIH9wIAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnKAwAACcsDAAANAgf4AgAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACcwDAAAJzQMAAA0CB/kCAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJzgMAAAnPAwAADQIH+gIAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnQAwAACdEDAAANAgf7AgAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACdIDAAAJ0wMAAA0CB/wCAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ1AMAAAnVAwAADQIH/QIAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnWAwAACdcDAAANAgf+AgAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACdgDAAAJ2QMAAA0CB/8CAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ2gMAAAnbAwAADQIHAAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAncAwAACd0DAAANAgcBAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACd4DAAAJ3wMAAA0CBwIDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ4AMAAAnhAwAADQIHAwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAniAwAACeMDAAANAgcEAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACeQDAAAJ5QMAAA0CBwUDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ5gMAAAnnAwAADQIHBgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnoAwAACekDAAANAgcHAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACeoDAAAJ6wMAAA0CBwgDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ7AMAAAntAwAADQIHCQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnuAwAACe8DAAANAgcKAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACfADAAAJ8QMAAA0CBwsDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ8gMAAAnzAwAADQIHDAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAn0AwAACfUDAAANAgcNAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACfYDAAAJ9wMAAA0CBw4DAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ+AMAAAn5AwAADQIHDwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAn6AwAACfsDAAANAgcQAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACfwDAAAJ/QMAAA0CBxEDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ/gMAAAn/AwAADQIHEgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkABAAACQEEAAANAgcTAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACQIEAAAJAwQAAA0CBxQDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJBAQAAAkFBAAADQIHFQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkGBAAACQcEAAANAgcWAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACQgEAAAJCQQAAA0CBxcDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJCgQAAAkLBAAADQIHGAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkMBAAACQ0EAAANAgcZAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACQ4EAAAJDwQAAA0CBxoDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJEAQAAAkRBAAADQIHGwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkSBAAACRMEAAANAgccAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACRQEAAAJFQQAAA0CBx0DAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJFgQAAAkXBAAADQIHHgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkYBAAACRkEAAANAgcfAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACRoEAAAJGwQAAA0CByADAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJHAQAAAkdBAAADQIHIQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkeBAAACR8EAAANAgciAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACSAEAAAJIQQAAA0CByMDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJIgQAAAkjBAAADQIHJAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkkBAAACSUEAAANAgclAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACSYEAAAJJwQAAA0CByYDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJKAQAAAkpBAAADQIHJwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkqBAAACSsEAAANAgcoAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACSwEAAAJLQQAAA0CBykDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJLgQAAAkvBAAADQIHKgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkwBAAACTEEAAANAgcrAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACTIEAAAJMwQAAA0CBywDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJNAQAAAk1BAAADQIHLQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAk2BAAACTcEAAANAgcuAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACTgEAAAJOQQAAA0CBy8DAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJOgQAAAk7BAAADQIHMAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAk8BAAACT0EAAANAgcxAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACT4EAAAJPwQAAA0CBzIDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJQAQAAAlBBAAADQIHMwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAlCBAAACUMEAAANAgc0AwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACUQEAAAJRQQAAA0CBzUDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJRgQAAAlHBAAADQIHNgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAlIBAAACUkEAAANAgc3AwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACUoEAAAJSwQAAA0CBzgDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJTAQAAAlNBAAADQIHOQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAlOBAAACU8EAAANAgc6AwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACVAEAAAJUQQAAA0CBzsDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJUgQAAAlTBAAADQIHPAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAlUBAAACVUEAAANAgc9AwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACVYEAAAJVwQAAA0CBz4DAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJWAQAAAlZBAAADQIHPwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAlaBAAACVsEAAANAgdAAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACVwEAAAJXQQAAA0CB0EDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJXgQAAAlfBAAADQIHQgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAlgBAAACWEEAAANAgdDAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACWIEAAAJYwQAAA0CB0QDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJZAQAAAllBAAADQIHRQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAlmBAAACWcEAAANAgdGAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACWgEAAAJaQQAAA0CB0cDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJagQAAAlrBAAADQIHSAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAlsBAAACW0EAAANAgdJAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACW4EAAAJbwQAAA0CB0oDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJcAQAAAlxBAAADQIHSwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAlyBAAACXMEAAANAgdMAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACXQEAAAJdQQAAA0CB00DAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJdgQAAAl3BAAADQIHTgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAl4BAAACXkEAAANAgdPAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACXoEAAAJewQAAA0CB1ADAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJfAQAAAl9BAAADQIHUQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAl+BAAACX8EAAANAgdSAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACYAEAAAJgQQAAA0CB1MDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJggQAAAmDBAAADQIHVAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmEBAAACYUEAAANAgdVAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACYYEAAAJhwQAAA0CB1YDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJiAQAAAmJBAAADQIHVwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmKBAAACYsEAAANAgdYAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACYwEAAAJjQQAAA0CB1kDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJjgQAAAmPBAAADQIHWgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmQBAAACZEEAAANAgdbAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACZIEAAAJkwQAAA0CB1wDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJlAQAAAmVBAAADQIHXQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmWBAAACZcEAAANAgdeAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACZgEAAAJmQQAAA0CB18DAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJmgQAAAmbBAAADQIHYAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmcBAAACZ0EAAANAgdhAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACZ4EAAAJnwQAAA0CB2IDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJoAQAAAmhBAAADQIHYwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmiBAAACaMEAAANAgdkAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACaQEAAAJpQQAAA0CB2UDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJpgQAAAmnBAAADQIHZgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmoBAAACakEAAANAgdnAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACaoEAAAJqwQAAA0CB2gDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJrAQAAAmtBAAADQIHaQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmuBAAACa8EAAANAgdqAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbAEAAAJsQQAAA0CB2sDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJsgQAAAmzBAAADQIHbAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm0BAAACbUEAAANAgdtAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbYEAAAJtwQAAA0CB24DAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJuAQAAAm5BAAADQIHbwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm6BAAACbsEAAANAgdwAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbwEAAAJvQQAAA0CB3EDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJvgQAAAm/BAAADQIHcgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnABAAACcEEAAANAgdzAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACcIEAAAJwwQAAA0CB3QDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJxAQAAAnFBAAADQIHdQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnGBAAACccEAAANAgd2AwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACcgEAAAJyQQAAA0CB3cDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJygQAAAnLBAAADQIHegMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnMBAAACc0EAAANAgd7AwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACc4EAAAJzwQAAA0CB3wDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ0AQAAAnRBAAADQIHfQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnSBAAACdMEAAANAgd+AwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACdQEAAAJ1QQAAA0CB38DAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ1gQAAAnXBAAADQIHgAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnYBAAACdkEAAANAgeBAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACdoEAAAJ2wQAAA0CB4IDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ3AQAAAndBAAADQIHgwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAneBAAACd8EAAANAgeEAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACeAEAAAJ4QQAAA0CB4UDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ4gQAAAnjBAAADQIHhgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnkBAAACeUEAAANAgeHAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACeYEAAAJ5wQAAA0CB4gDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ6AQAAAnpBAAADQIHiQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnqBAAACesEAAANAgeKAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACewEAAAJ7QQAAA0CB4sDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ7gQAAAnvBAAADQIHjAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnwBAAACfEEAAANAgeNAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACfIEAAAJ8wQAAA0CB44DAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ9AQAAAn1BAAADQIHjwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAn2BAAACfcEAAANAgeQAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACfgEAAAJ+QQAAA0CB5EDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ+gQAAAn7BAAADQIHkgMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAn8BAAACf0EAAANAgeTAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACf4EAAAJ/wQAAA0CB5QDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJAAUAAAkBBQAADQIHlQMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkCBQAACQMFAAANAgeWAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACQQFAAAJBQUAAA0CB5cDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJBgUAAAkHBQAADQIHmAMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkIBQAACQkFAAANAgeZAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACQoFAAAJCwUAAA0CB5oDAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJDAUAAAkNBQAADQIHmwMAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAkOBQAACQ8FAAANAgecAwAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACRAFAAAJEQUAAA0CB50DAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJEgUAAAkTBQAADQIFngMAACpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkZ1bmN0aW9uT3BlcmF0b3ICAAAACG9wZXJhbmRzDE9wZXJhdG9yVHlwZQQENERldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvckNvbGxlY3Rpb24PAAAALkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuRnVuY3Rpb25PcGVyYXRvclR5cGUPAAAADwAAAAkUBQAABev6//8uRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5GdW5jdGlvbk9wZXJhdG9yVHlwZQEAAAAHdmFsdWVfXwAIDwAAAC4AAAABnwMAABcBAAAB6vr//3D9//8DAAAACRcFAAAJGAUAAAGgAwAAngMAAAkZBQAAAeb6///r+v//LgAAAAGhAwAAFwEAAAHl+v//cP3//wMAAAAJHAUAAAkdBQAAAaIDAACeAwAACR4FAAAB4fr//+v6//8uAAAAAaMDAAAXAQAAAeD6//9w/f//AwAAAAkhBQAACSIFAAABpAMAAJ4DAAAJIwUAAAHc+v//6/r//y4AAAABpQMAABcBAAAB2/r//3D9//8DAAAACSYFAAAJJwUAAAGmAwAAngMAAAkoBQAAAdf6///r+v//LgAAAAGnAwAAFwEAAAHW+v//cP3//wMAAAAJKwUAAAksBQAAAagDAAAXAQAAAdP6//9w/f//AAAAAAkuBQAACS8FAAABqQMAABcBAAAB0Pr//3D9//8DAAAACTEFAAAJMgUAAAGqAwAAngMAAAkzBQAAAcz6///r+v//LgAAAAGrAwAAFwEAAAHL+v//cP3//wMAAAAJNgUAAAk3BQAAAawDAACeAwAACTgFAAABx/r//+v6//8uAAAAAa0DAAAXAQAAAcb6//9w/f//AwAAAAk7BQAACTwFAAABrgMAAJ4DAAAJPQUAAAHC+v//6/r//y4AAAABrwMAABcBAAABwfr//3D9//8DAAAACUAFAAAJQQUAAAGwAwAAngMAAAlCBQAAAb36///r+v//LgAAAAGxAwAAFwEAAAG8+v//cP3//wMAAAAJRQUAAAlGBQAAAbIDAACeAwAACUcFAAABuPr//+v6//8uAAAAAbMDAAAXAQAAAbf6//9w/f//AwAAAAlKBQAACUsFAAABtAMAAJ4DAAAJTAUAAAGz+v//6/r//y4AAAABtQMAABcBAAABsvr//3D9//8DAAAACU8FAAAJUAUAAAG2AwAAngMAAAlRBQAAAa76///r+v//LgAAAAG3AwAAFwEAAAGt+v//cP3//wMAAAAJVAUAAAlVBQAAAbgDAACeAwAACVYFAAABqfr//+v6//8uAAAAAbkDAAAXAQAAAaj6//9w/f//AwAAAAlZBQAACVoFAAABugMAAJ4DAAAJWwUAAAGk+v//6/r//y4AAAABuwMAABcBAAABo/r//3D9//8DAAAACV4FAAAJXwUAAAG8AwAAngMAAAlgBQAAAZ/6///r+v//LgAAAAG9AwAAFwEAAAGe+v//cP3//wMAAAAJYwUAAAlkBQAAAb4DAACeAwAACWUFAAABmvr//+v6//8uAAAAAb8DAAAXAQAAAZn6//9w/f//AwAAAAloBQAACWkFAAABwAMAAJ4DAAAJagUAAAGV+v//6/r//y4AAAABwQMAABcBAAABlPr//3D9//8DAAAACW0FAAAJbgUAAAHCAwAAFwEAAAGR+v//cP3//wAAAAAJcAUAAAlxBQAAAcMDAAAXAQAAAY76//9w/f//AwAAAAlzBQAACXQFAAABxAMAAJ4DAAAJdQUAAAGK+v//6/r//y4AAAABxQMAABcBAAABifr//3D9//8DAAAACRcFAAAJGAUAAAHGAwAAngMAAAl6BQAAAYX6///r+v//LgAAAAHHAwAAFwEAAAGE+v//cP3//wMAAAAJHAUAAAkdBQAAAcgDAACeAwAACX8FAAABgPr//+v6//8uAAAAAckDAAAXAQAAAX/6//9w/f//AwAAAAkhBQAACSIFAAABygMAAJ4DAAAJhAUAAAF7+v//6/r//y4AAAABywMAABcBAAABevr//3D9//8DAAAACSYFAAAJJwUAAAHMAwAAngMAAAmJBQAAAXb6///r+v//LgAAAAHNAwAAFwEAAAF1+v//cP3//wMAAAAJKwUAAAksBQAAAc4DAAAXAQAAAXL6//9w/f//AAAAAAkuBQAACS8FAAABzwMAABcBAAABb/r//3D9//8DAAAACTEFAAAJMgUAAAHQAwAAngMAAAmUBQAAAWv6///r+v//LgAAAAHRAwAAFwEAAAFq+v//cP3//wMAAAAJNgUAAAk3BQAAAdIDAACeAwAACZkFAAABZvr//+v6//8uAAAAAdMDAAAXAQAAAWX6//9w/f//AwAAAAk7BQAACTwFAAAB1AMAAJ4DAAAJngUAAAFh+v//6/r//y4AAAAB1QMAABcBAAABYPr//3D9//8DAAAACUAFAAAJQQUAAAHWAwAAngMAAAmjBQAAAVz6///r+v//LgAAAAHXAwAAFwEAAAFb+v//cP3//wMAAAAJRQUAAAlGBQAAAdgDAACeAwAACagFAAABV/r//+v6//8uAAAAAdkDAAAXAQAAAVb6//9w/f//AwAAAAlKBQAACUsFAAAB2gMAAJ4DAAAJrQUAAAFS+v//6/r//y4AAAAB2wMAABcBAAABUfr//3D9//8DAAAACU8FAAAJUAUAAAHcAwAAngMAAAmyBQAAAU36///r+v//LgAAAAHdAwAAFwEAAAFM+v//cP3//wMAAAAJVAUAAAlVBQAAAd4DAACeAwAACbcFAAABSPr//+v6//8uAAAAAd8DAAAXAQAAAUf6//9w/f//AwAAAAlZBQAACVoFAAAB4AMAAJ4DAAAJvAUAAAFD+v//6/r//y4AAAAB4QMAABcBAAABQvr//3D9//8DAAAACV4FAAAJXwUAAAHiAwAAngMAAAnBBQAAAT76///r+v//LgAAAAHjAwAAFwEAAAE9+v//cP3//wMAAAAJYwUAAAlkBQAAAeQDAACeAwAACcYFAAABOfr//+v6//8uAAAAAeUDAAAXAQAAATj6//9w/f//AwAAAAloBQAACWkFAAAB5gMAAJ4DAAAJywUAAAE0+v//6/r//y4AAAAB5wMAABcBAAABM/r//3D9//8DAAAACW0FAAAJbgUAAAHoAwAAFwEAAAEw+v//cP3//wAAAAAJcAUAAAlxBQAAAekDAAAXAQAAAS36//9w/f//AwAAAAlzBQAACXQFAAAB6gMAAJ4DAAAJ1gUAAAEp+v//6/r//y4AAAAB6wMAABcBAAABKPr//3D9//8DAAAACRcFAAAJGAUAAAHsAwAAngMAAAnbBQAAAST6///r+v//LgAAAAHtAwAAFwEAAAEj+v//cP3//wMAAAAJHAUAAAkdBQAAAe4DAACeAwAACeAFAAABH/r//+v6//8uAAAAAe8DAAAXAQAAAR76//9w/f//AwAAAAkhBQAACSIFAAAB8AMAAJ4DAAAJ5QUAAAEa+v//6/r//y4AAAAB8QMAABcBAAABGfr//3D9//8DAAAACSYFAAAJJwUAAAHyAwAAngMAAAnqBQAAARX6///r+v//LgAAAAHzAwAAFwEAAAEU+v//cP3//wMAAAAJKwUAAAksBQAAAfQDAAAXAQAAARH6//9w/f//AAAAAAkuBQAACS8FAAAB9QMAABcBAAABDvr//3D9//8DAAAACTEFAAAJMgUAAAH2AwAAngMAAAn1BQAAAQr6///r+v//LgAAAAH3AwAAFwEAAAEJ+v//cP3//wMAAAAJNgUAAAk3BQAAAfgDAACeAwAACfoFAAABBfr//+v6//8uAAAAAfkDAAAXAQAAAQT6//9w/f//AwAAAAk7BQAACTwFAAAB+gMAAJ4DAAAJ/wUAAAEA+v//6/r//y4AAAAB+wMAABcBAAAB//n//3D9//8DAAAACUAFAAAJQQUAAAH8AwAAngMAAAkEBgAAAfv5///r+v//LgAAAAH9AwAAFwEAAAH6+f//cP3//wMAAAAJRQUAAAlGBQAAAf4DAACeAwAACQkGAAAB9vn//+v6//8uAAAAAf8DAAAXAQAAAfX5//9w/f//AwAAAAlKBQAACUsFAAABAAQAAJ4DAAAJDgYAAAHx+f//6/r//y4AAAABAQQAABcBAAAB8Pn//3D9//8DAAAACU8FAAAJUAUAAAECBAAAngMAAAkTBgAAAez5///r+v//LgAAAAEDBAAAFwEAAAHr+f//cP3//wMAAAAJVAUAAAlVBQAAAQQEAACeAwAACRgGAAAB5/n//+v6//8uAAAAAQUEAAAXAQAAAeb5//9w/f//AwAAAAlZBQAACVoFAAABBgQAAJ4DAAAJHQYAAAHi+f//6/r//y4AAAABBwQAABcBAAAB4fn//3D9//8DAAAACV4FAAAJXwUAAAEIBAAAngMAAAkiBgAAAd35///r+v//LgAAAAEJBAAAFwEAAAHc+f//cP3//wMAAAAJYwUAAAlkBQAAAQoEAACeAwAACScGAAAB2Pn//+v6//8uAAAAAQsEAAAXAQAAAdf5//9w/f//AwAAAAloBQAACWkFAAABDAQAAJ4DAAAJLAYAAAHT+f//6/r//y4AAAABDQQAABcBAAAB0vn//3D9//8DAAAACW0FAAAJbgUAAAEOBAAAFwEAAAHP+f//cP3//wAAAAAJcAUAAAlxBQAAAQ8EAAAXAQAAAcz5//9w/f//AwAAAAlzBQAACXQFAAABEAQAAJ4DAAAJNwYAAAHI+f//6/r//y4AAAABEQQAABcBAAABx/n//3D9//8DAAAACRcFAAAJGAUAAAESBAAAngMAAAk8BgAAAcP5///r+v//LgAAAAETBAAAFwEAAAHC+f//cP3//wMAAAAJHAUAAAkdBQAAARQEAACeAwAACUEGAAABvvn//+v6//8uAAAAARUEAAAXAQAAAb35//9w/f//AwAAAAkhBQAACSIFAAABFgQAAJ4DAAAJRgYAAAG5+f//6/r//y4AAAABFwQAABcBAAABuPn//3D9//8DAAAACSYFAAAJJwUAAAEYBAAAngMAAAlLBgAAAbT5///r+v//LgAAAAEZBAAAFwEAAAGz+f//cP3//wMAAAAJKwUAAAksBQAAARoEAAAXAQAAAbD5//9w/f//AAAAAAkuBQAACS8FAAABGwQAABcBAAABrfn//3D9//8DAAAACTEFAAAJMgUAAAEcBAAAngMAAAlWBgAAAan5///r+v//LgAAAAEdBAAAFwEAAAGo+f//cP3//wMAAAAJNgUAAAk3BQAAAR4EAACeAwAACVsGAAABpPn//+v6//8uAAAAAR8EAAAXAQAAAaP5//9w/f//AwAAAAk7BQAACTwFAAABIAQAAJ4DAAAJYAYAAAGf+f//6/r//y4AAAABIQQAABcBAAABnvn//3D9//8DAAAACUAFAAAJQQUAAAEiBAAAngMAAAllBgAAAZr5///r+v//LgAAAAEjBAAAFwEAAAGZ+f//cP3//wMAAAAJRQUAAAlGBQAAASQEAACeAwAACWoGAAABlfn//+v6//8uAAAAASUEAAAXAQAAAZT5//9w/f//AwAAAAlKBQAACUsFAAABJgQAAJ4DAAAJbwYAAAGQ+f//6/r//y4AAAABJwQAABcBAAABj/n//3D9//8DAAAACU8FAAAJUAUAAAEoBAAAngMAAAl0BgAAAYv5///r+v//LgAAAAEpBAAAFwEAAAGK+f//cP3//wMAAAAJVAUAAAlVBQAAASoEAACeAwAACXkGAAABhvn//+v6//8uAAAAASsEAAAXAQAAAYX5//9w/f//AwAAAAlZBQAACVoFAAABLAQAAJ4DAAAJfgYAAAGB+f//6/r//y4AAAABLQQAABcBAAABgPn//3D9//8DAAAACV4FAAAJXwUAAAEuBAAAngMAAAmDBgAAAXz5///r+v//LgAAAAEvBAAAFwEAAAF7+f//cP3//wMAAAAJYwUAAAlkBQAAATAEAACeAwAACYgGAAABd/n//+v6//8uAAAAATEEAAAXAQAAAXb5//9w/f//AwAAAAloBQAACWkFAAABMgQAAJ4DAAAJjQYAAAFy+f//6/r//y4AAAABMwQAABcBAAABcfn//3D9//8DAAAACW0FAAAJbgUAAAE0BAAAFwEAAAFu+f//cP3//wAAAAAJcAUAAAlxBQAAATUEAAAXAQAAAWv5//9w/f//AwAAAAlzBQAACXQFAAABNgQAAJ4DAAAJmAYAAAFn+f//6/r//y4AAAABNwQAABcBAAABZvn//3D9//8DAAAACRcFAAAJGAUAAAE4BAAAngMAAAmdBgAAAWL5///r+v//LgAAAAE5BAAAFwEAAAFh+f//cP3//wMAAAAJHAUAAAkdBQAAAToEAACeAwAACaIGAAABXfn//+v6//8uAAAAATsEAAAXAQAAAVz5//9w/f//AwAAAAkhBQAACSIFAAABPAQAAJ4DAAAJpwYAAAFY+f//6/r//y4AAAABPQQAABcBAAABV/n//3D9//8DAAAACSYFAAAJJwUAAAE+BAAAngMAAAmsBgAAAVP5///r+v//LgAAAAE/BAAAFwEAAAFS+f//cP3//wMAAAAJKwUAAAksBQAAAUAEAAAXAQAAAU/5//9w/f//AAAAAAkuBQAACS8FAAABQQQAABcBAAABTPn//3D9//8DAAAACTEFAAAJMgUAAAFCBAAAngMAAAm3BgAAAUj5///r+v//LgAAAAFDBAAAFwEAAAFH+f//cP3//wMAAAAJNgUAAAk3BQAAAUQEAACeAwAACbwGAAABQ/n//+v6//8uAAAAAUUEAAAXAQAAAUL5//9w/f//AwAAAAk7BQAACTwFAAABRgQAAJ4DAAAJwQYAAAE++f//6/r//y4AAAABRwQAABcBAAABPfn//3D9//8DAAAACUAFAAAJQQUAAAFIBAAAngMAAAnGBgAAATn5///r+v//LgAAAAFJBAAAFwEAAAE4+f//cP3//wMAAAAJRQUAAAlGBQAAAUoEAACeAwAACcsGAAABNPn//+v6//8uAAAAAUsEAAAXAQAAATP5//9w/f//AwAAAAlKBQAACUsFAAABTAQAAJ4DAAAJ0AYAAAEv+f//6/r//y4AAAABTQQAABcBAAABLvn//3D9//8DAAAACU8FAAAJUAUAAAFOBAAAngMAAAnVBgAAASr5///r+v//LgAAAAFPBAAAFwEAAAEp+f//cP3//wMAAAAJVAUAAAlVBQAAAVAEAACeAwAACdoGAAABJfn//+v6//8uAAAAAVEEAAAXAQAAAST5//9w/f//AwAAAAlZBQAACVoFAAABUgQAAJ4DAAAJ3wYAAAEg+f//6/r//y4AAAABUwQAABcBAAABH/n//3D9//8DAAAACV4FAAAJXwUAAAFUBAAAngMAAAnkBgAAARv5///r+v//LgAAAAFVBAAAFwEAAAEa+f//cP3//wMAAAAJYwUAAAlkBQAAAVYEAACeAwAACekGAAABFvn//+v6//8uAAAAAVcEAAAXAQAAARX5//9w/f//AwAAAAloBQAACWkFAAABWAQAAJ4DAAAJ7gYAAAER+f//6/r//y4AAAABWQQAABcBAAABEPn//3D9//8DAAAACW0FAAAJbgUAAAFaBAAAFwEAAAEN+f//cP3//wAAAAAJcAUAAAlxBQAAAVsEAAAXAQAAAQr5//9w/f//AwAAAAlzBQAACXQFAAABXAQAAJ4DAAAJ+QYAAAEG+f//6/r//y4AAAABXQQAABcBAAABBfn//3D9//8DAAAACRcFAAAJGAUAAAFeBAAAngMAAAn+BgAAAQH5///r+v//LgAAAAFfBAAAFwEAAAEA+f//cP3//wMAAAAJHAUAAAkdBQAAAWAEAACeAwAACQMHAAAB/Pj//+v6//8uAAAAAWEEAAAXAQAAAfv4//9w/f//AwAAAAkhBQAACSIFAAABYgQAAJ4DAAAJCAcAAAH3+P//6/r//y4AAAABYwQAABcBAAAB9vj//3D9//8DAAAACSYFAAAJJwUAAAFkBAAAngMAAAkNBwAAAfL4///r+v//LgAAAAFlBAAAFwEAAAHx+P//cP3//wMAAAAJKwUAAAksBQAAAWYEAAAXAQAAAe74//9w/f//AAAAAAkuBQAACS8FAAABZwQAABcBAAAB6/j//3D9//8DAAAACTEFAAAJMgUAAAFoBAAAngMAAAkYBwAAAef4///r+v//LgAAAAFpBAAAFwEAAAHm+P//cP3//wMAAAAJNgUAAAk3BQAAAWoEAACeAwAACR0HAAAB4vj//+v6//8uAAAAAWsEAAAXAQAAAeH4//9w/f//AwAAAAk7BQAACTwFAAABbAQAAJ4DAAAJIgcAAAHd+P//6/r//y4AAAABbQQAABcBAAAB3Pj//3D9//8DAAAACUAFAAAJQQUAAAFuBAAAngMAAAknBwAAAdj4///r+v//LgAAAAFvBAAAFwEAAAHX+P//cP3//wMAAAAJRQUAAAlGBQAAAXAEAACeAwAACSwHAAAB0/j//+v6//8uAAAAAXEEAAAXAQAAAdL4//9w/f//AwAAAAlKBQAACUsFAAABcgQAAJ4DAAAJMQcAAAHO+P//6/r//y4AAAABcwQAABcBAAABzfj//3D9//8DAAAACU8FAAAJUAUAAAF0BAAAngMAAAk2BwAAAcn4///r+v//LgAAAAF1BAAAFwEAAAHI+P//cP3//wMAAAAJVAUAAAlVBQAAAXYEAACeAwAACTsHAAABxPj//+v6//8uAAAAAXcEAAAXAQAAAcP4//9w/f//AwAAAAlZBQAACVoFAAABeAQAAJ4DAAAJQAcAAAG/+P//6/r//y4AAAABeQQAABcBAAABvvj//3D9//8DAAAACV4FAAAJXwUAAAF6BAAAngMAAAlFBwAAAbr4///r+v//LgAAAAF7BAAAFwEAAAG5+P//cP3//wMAAAAJYwUAAAlkBQAAAXwEAACeAwAACUoHAAABtfj//+v6//8uAAAAAX0EAAAXAQAAAbT4//9w/f//AwAAAAloBQAACWkFAAABfgQAAJ4DAAAJTwcAAAGw+P//6/r//y4AAAABfwQAABcBAAABr/j//3D9//8DAAAACW0FAAAJbgUAAAGABAAAFwEAAAGs+P//cP3//wAAAAAJcAUAAAlxBQAAAYEEAAAXAQAAAan4//9w/f//AwAAAAlzBQAACXQFAAABggQAAJ4DAAAJWgcAAAGl+P//6/r//y4AAAABgwQAABcBAAABpPj//3D9//8DAAAACRcFAAAJGAUAAAGEBAAAngMAAAlfBwAAAaD4///r+v//LgAAAAGFBAAAFwEAAAGf+P//cP3//wMAAAAJHAUAAAkdBQAAAYYEAACeAwAACWQHAAABm/j//+v6//8uAAAAAYcEAAAXAQAAAZr4//9w/f//AwAAAAkhBQAACSIFAAABiAQAAJ4DAAAJaQcAAAGW+P//6/r//y4AAAABiQQAABcBAAABlfj//3D9//8DAAAACSYFAAAJJwUAAAGKBAAAngMAAAluBwAAAZH4///r+v//LgAAAAGLBAAAFwEAAAGQ+P//cP3//wMAAAAJKwUAAAksBQAAAYwEAAAXAQAAAY34//9w/f//AAAAAAkuBQAACS8FAAABjQQAABcBAAABivj//3D9//8DAAAACTEFAAAJMgUAAAGOBAAAngMAAAl5BwAAAYb4///r+v//LgAAAAGPBAAAFwEAAAGF+P//cP3//wMAAAAJNgUAAAk3BQAAAZAEAACeAwAACX4HAAABgfj//+v6//8uAAAAAZEEAAAXAQAAAYD4//9w/f//AwAAAAk7BQAACTwFAAABkgQAAJ4DAAAJgwcAAAF8+P//6/r//y4AAAABkwQAABcBAAABe/j//3D9//8DAAAACUAFAAAJQQUAAAGUBAAAngMAAAmIBwAAAXf4///r+v//LgAAAAGVBAAAFwEAAAF2+P//cP3//wMAAAAJRQUAAAlGBQAAAZYEAACeAwAACY0HAAABcvj//+v6//8uAAAAAZcEAAAXAQAAAXH4//9w/f//AwAAAAlKBQAACUsFAAABmAQAAJ4DAAAJkgcAAAFt+P//6/r//y4AAAABmQQAABcBAAABbPj//3D9//8DAAAACU8FAAAJUAUAAAGaBAAAngMAAAmXBwAAAWj4///r+v//LgAAAAGbBAAAFwEAAAFn+P//cP3//wMAAAAJVAUAAAlVBQAAAZwEAACeAwAACZwHAAABY/j//+v6//8uAAAAAZ0EAAAXAQAAAWL4//9w/f//AwAAAAlZBQAACVoFAAABngQAAJ4DAAAJoQcAAAFe+P//6/r//y4AAAABnwQAABcBAAABXfj//3D9//8DAAAACV4FAAAJXwUAAAGgBAAAngMAAAmmBwAAAVn4///r+v//LgAAAAGhBAAAFwEAAAFY+P//cP3//wMAAAAJYwUAAAlkBQAAAaIEAACeAwAACasHAAABVPj//+v6//8uAAAAAaMEAAAXAQAAAVP4//9w/f//AwAAAAloBQAACWkFAAABpAQAAJ4DAAAJsAcAAAFP+P//6/r//y4AAAABpQQAABcBAAABTvj//3D9//8DAAAACW0FAAAJbgUAAAGmBAAAFwEAAAFL+P//cP3//wAAAAAJcAUAAAlxBQAAAacEAAAXAQAAAUj4//9w/f//AwAAAAlzBQAACXQFAAABqAQAAJ4DAAAJuwcAAAFE+P//6/r//y4AAAABqQQAABcBAAABQ/j//3D9//8DAAAACRcFAAAJGAUAAAGqBAAAngMAAAnABwAAAT/4///r+v//LgAAAAGrBAAAFwEAAAE++P//cP3//wMAAAAJHAUAAAkdBQAAAawEAACeAwAACcUHAAABOvj//+v6//8uAAAAAa0EAAAXAQAAATn4//9w/f//AwAAAAkhBQAACSIFAAABrgQAAJ4DAAAJygcAAAE1+P//6/r//y4AAAABrwQAABcBAAABNPj//3D9//8DAAAACSYFAAAJJwUAAAGwBAAAngMAAAnPBwAAATD4///r+v//LgAAAAGxBAAAFwEAAAEv+P//cP3//wMAAAAJKwUAAAksBQAAAbIEAAAXAQAAASz4//9w/f//AAAAAAkuBQAACS8FAAABswQAABcBAAABKfj//3D9//8DAAAACTEFAAAJMgUAAAG0BAAAngMAAAnaBwAAASX4///r+v//LgAAAAG1BAAAFwEAAAEk+P//cP3//wMAAAAJNgUAAAk3BQAAAbYEAACeAwAACd8HAAABIPj//+v6//8uAAAAAbcEAAAXAQAAAR/4//9w/f//AwAAAAk7BQAACTwFAAABuAQAAJ4DAAAJ5AcAAAEb+P//6/r//y4AAAABuQQAABcBAAABGvj//3D9//8DAAAACUAFAAAJQQUAAAG6BAAAngMAAAnpBwAAARb4///r+v//LgAAAAG7BAAAFwEAAAEV+P//cP3//wMAAAAJRQUAAAlGBQAAAbwEAACeAwAACe4HAAABEfj//+v6//8uAAAAAb0EAAAXAQAAARD4//9w/f//AwAAAAlKBQAACUsFAAABvgQAAJ4DAAAJ8wcAAAEM+P//6/r//y4AAAABvwQAABcBAAABC/j//3D9//8DAAAACU8FAAAJUAUAAAHABAAAngMAAAn4BwAAAQf4///r+v//LgAAAAHBBAAAFwEAAAEG+P//cP3//wMAAAAJVAUAAAlVBQAAAcIEAACeAwAACf0HAAABAvj//+v6//8uAAAAAcMEAAAXAQAAAQH4//9w/f//AwAAAAlZBQAACVoFAAABxAQAAJ4DAAAJAggAAAH99///6/r//y4AAAABxQQAABcBAAAB/Pf//3D9//8DAAAACV4FAAAJXwUAAAHGBAAAngMAAAkHCAAAAfj3///r+v//LgAAAAHHBAAAFwEAAAH39///cP3//wAAAAAJYwUAAAlkBQAAAcgEAACeAwAACQwIAAAB8/f//+v6//8uAAAAAckEAAAXAQAAAfL3//9w/f//AAAAAAloBQAACWkFAAABygQAAJ4DAAAJEQgAAAHu9///6/r//y4AAAABywQAABcBAAAB7ff//3D9//8AAAAACW0FAAAJbgUAAAHMBAAAngMAAAkWCAAAAen3///r+v//LgAAAAHNBAAAFwEAAAHo9///cP3//wMAAAAJGQgAAAkaCAAAAc4EAACeAwAACRsIAAAB5Pf//+v6//8uAAAAAc8EAAAXAQAAAeP3//9w/f//AwAAAAkeCAAACR8IAAAB0AQAAJ4DAAAJIAgAAAHf9///6/r//y4AAAAB0QQAABcBAAAB3vf//3D9//8DAAAACSMIAAAJJAgAAAHSBAAAngMAAAklCAAAAdr3///r+v//LgAAAAHTBAAAFwEAAAHZ9///cP3//wMAAAAJKAgAAAkpCAAAAdQEAACeAwAACSoIAAAB1ff//+v6//8uAAAAAdUEAAAXAQAAAdT3//9w/f//AwAAAAktCAAACS4IAAAB1gQAAJ4DAAAJLwgAAAHQ9///6/r//y4AAAAB1wQAABcBAAABz/f//3D9//8DAAAACTIIAAAJMwgAAAHYBAAAngMAAAk0CAAAAcv3///r+v//LgAAAAHZBAAAFwEAAAHK9///cP3//wMAAAAJNwgAAAk4CAAAAdoEAACeAwAACTkIAAABxvf//+v6//8uAAAAAdsEAAAXAQAAAcX3//9w/f//AwAAAAk8CAAACT0IAAAB3AQAAJ4DAAAJPggAAAHB9///6/r//y4AAAAB3QQAABcBAAABwPf//3D9//8DAAAACUEIAAAJQggAAAHeBAAAngMAAAlDCAAAAbz3///r+v//LgAAAAHfBAAAFwEAAAG79///cP3//wMAAAAJRggAAAlHCAAAAeAEAACeAwAACUgIAAABt/f//+v6//8uAAAAAeEEAAAXAQAAAbb3//9w/f//AwAAAAlLCAAACUwIAAAB4gQAAJ4DAAAJTQgAAAGy9///6/r//y4AAAAB4wQAABcBAAABsff//3D9//8DAAAACVAIAAAJUQgAAAHkBAAAngMAAAlSCAAAAa33///r+v//LgAAAAHlBAAAFwEAAAGs9///cP3//wMAAAAJVQgAAAlWCAAAAeYEAACeAwAACVcIAAABqPf//+v6//8uAAAAAecEAAAXAQAAAaf3//9w/f//AwAAAAlaCAAACVsIAAAB6AQAAJ4DAAAJXAgAAAGj9///6/r//y4AAAAB6QQAABcBAAABovf//3D9//8DAAAACV8IAAAJYAgAAAHqBAAAngMAAAlhCAAAAZ73///r+v//LgAAAAHrBAAAFwEAAAGd9///cP3//wAAAAAJZAgAAAllCAAAAewEAACeAwAACWYIAAABmff//+v6//8uAAAAAe0EAAAXAQAAAZj3//9w/f//AAAAAAlpCAAACWoIAAAB7gQAAJ4DAAAJawgAAAGU9///6/r//y4AAAAB7wQAABcBAAABk/f//3D9//8AAAAACW4IAAAJbwgAAAHwBAAAngMAAAlwCAAAAY/3///r+v//LgAAAAHxBAAAFwEAAAGO9///cP3//wMAAAAJGQgAAAkaCAAAAfIEAACeAwAACXUIAAABivf//+v6//8uAAAAAfMEAAAXAQAAAYn3//9w/f//AwAAAAkeCAAACR8IAAAB9AQAAJ4DAAAJeggAAAGF9///6/r//y4AAAAB9QQAABcBAAABhPf//3D9//8DAAAACSMIAAAJJAgAAAH2BAAAngMAAAl/CAAAAYD3///r+v//LgAAAAH3BAAAFwEAAAF/9///cP3//wMAAAAJKAgAAAkpCAAAAfgEAACeAwAACYQIAAABe/f//+v6//8uAAAAAfkEAAAXAQAAAXr3//9w/f//AwAAAAktCAAACS4IAAAB+gQAAJ4DAAAJiQgAAAF29///6/r//y4AAAAB+wQAABcBAAABdff//3D9//8DAAAACTIIAAAJMwgAAAH8BAAAngMAAAmOCAAAAXH3///r+v//LgAAAAH9BAAAFwEAAAFw9///cP3//wMAAAAJNwgAAAk4CAAAAf4EAACeAwAACZMIAAABbPf//+v6//8uAAAAAf8EAAAXAQAAAWv3//9w/f//AwAAAAk8CAAACT0IAAABAAUAAJ4DAAAJmAgAAAFn9///6/r//y4AAAABAQUAABcBAAABZvf//3D9//8DAAAACUEIAAAJQggAAAECBQAAngMAAAmdCAAAAWL3///r+v//LgAAAAEDBQAAFwEAAAFh9///cP3//wMAAAAJRggAAAlHCAAAAQQFAACeAwAACaIIAAABXff//+v6//8uAAAAAQUFAAAXAQAAAVz3//9w/f//AwAAAAlLCAAACUwIAAABBgUAAJ4DAAAJpwgAAAFY9///6/r//y4AAAABBwUAABcBAAABV/f//3D9//8DAAAACVAIAAAJUQgAAAEIBQAAngMAAAmsCAAAAVP3///r+v//LgAAAAEJBQAAFwEAAAFS9///cP3//wAAAAAJVQgAAAlWCAAAAQoFAACeAwAACbEIAAABTvf//+v6//8uAAAAAQsFAAAXAQAAAU33//9w/f//AAAAAAlaCAAACbUIAAABDAUAAJ4DAAAJtggAAAFJ9///6/r//y4AAAABDQUAABcBAAABSPf//3D9//8AAAAACV8IAAAJuggAAAEOBQAAngMAAAm7CAAAAUT3///r+v//LgAAAAEPBQAAFwEAAAFD9///cP3//wAAAAAJZAgAAAm/CAAAARAFAACeAwAACcAIAAABP/f//+v6//8uAAAAAREFAAAXAQAAAT73//9w/f//AAAAAAlpCAAACcQIAAABEgUAAJ4DAAAJxQgAAAE69///6/r//y4AAAABEwUAABcBAAABOff//3D9//8AAAAACW4IAAAJyQgAAAEUBQAAJAAAAAnKCAAAAgAAAAEAAAABFwUAAJECAAAGywgAAAlTYWxlc1JhbmsFGAUAACdEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNvbnN0YW50VmFsdWUBAAAAEk9wZXJhbmRWYWx1ZSt2YWx1ZQIPAAAACAiAOAEAARkFAAAkAAAACcwIAAACAAAAAQAAAAEcBQAAkQIAAAbNCAAACVNhbGVzUmFuawEdBQAAGAUAAAgIUMMAAAEeBQAAJAAAAAnOCAAAAgAAAAEAAAABIQUAAJECAAAGzwgAAAlTYWxlc1JhbmsBIgUAABgFAAAICECcAAABIwUAACQAAAAJ0AgAAAIAAAABAAAAASYFAACRAgAABtEIAAAJU2FsZXNSYW5rAScFAAAYBQAACAggTgAAASgFAAAkAAAACdIIAA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kIAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJqwkAAAmsCQAADQIH2wgAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmtCQAACa4JAAANAgfdCAAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACa8JAAAJsAkAAA0CB98IAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJsQkAAAmyCQAADQIH4QgAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmzCQAACbQJAAANAgfjCAAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbUJAAAJtgkAAA0CB+UIAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJtwkAAAm4CQAADQIH5wgAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm5CQAACboJAAANAgfpCAAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbsJAAAJvAkAAA0CB+sIAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJvQkAAAm+CQAADQIH7QgAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm/CQAACcAJAAANAgfyCAAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACZ8JAAAJoAkAAA0CB/MIAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJoQkAAAmiCQAADQIH9AgAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmjCQAACaQJAAANAgf1CAAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACaUJAAAJpgkAAA0CB/YIAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJpwkAAAmoCQAADQIH9wgAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmpCQAACaoJAAANAgf4CAAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACasJAAAJrAkAAA0CB/kIAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJrQkAAAmuCQAADQIH+ggAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmvCQAACbAJAAANAgf7CAAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbEJAAAJsgkAAA0CB/wIAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJswkAAAm0CQAADQIH/QgAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm1CQAACbYJAAANAgf+CAAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbcJAAAJuAkAAA0CB/8IAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJuQkAAAm6CQAADQIHAAkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm7CQAACbwJAAANAgcBCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACb0JAAAJvgkAAA0CBwIJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJvwkAAAnACQAADQIHAwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmfCQAACaAJAAANAgcECQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACaEJAAAJogkAAA0CBwUJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJowkAAAmkCQAADQIHBgkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmlCQAACaYJAAANAgcHCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACacJAAAJqAkAAA0CBwgJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJqQkAAAmqCQAADQIHCQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmrCQAACawJAAANAgcKCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACa0JAAAJrgkAAA0CBwsJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJrwkAAAmwCQAADQIHDAkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmxCQAACbIJAAANAgcNCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbMJAAAJtAkAAA0CBw4JAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJtQkAAAm2CQAADQIHDwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm3CQAACbgJAAANAgcQCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbkJAAAJugkAAA0CBxEJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJuwkAAAm8CQAADQIHEgkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm9CQAACb4JAAANAgcTCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACb8JAAAJwAkAAA0CBxQJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJnwkAAAmgCQAADQIHFQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmhCQAACaIJAAANAgcWCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACaMJAAAJpAkAAA0CBxcJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJpQkAAAmmCQAADQIHGAkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmnCQAACagJAAANAgcZCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACakJAAAJqgkAAA0CBxoJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJqwkAAAmsCQAADQIHGwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmtCQAACa4JAAANAgccCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACa8JAAAJsAkAAA0CBx0JAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJsQkAAAmyCQAADQIHHgkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmzCQAACbQJAAANAgcfCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbUJAAAJtgkAAA0CByAJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJtwkAAAm4CQAADQIHIQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm5CQAACboJAAANAgciCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbsJAAAJvAkAAA0CByMJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJvQkAAAm+CQAADQIHJAkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm/CQAACcAJAAANAgclCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACZ8JAAAJoAkAAA0CByYJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJoQkAAAmiCQAADQIHJwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmjCQAACaQJAAANAgcoCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACaUJAAAJpgkAAA0CBykJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJpwkAAAmoCQAADQIHKgkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmpCQAACaoJAAANAgcrCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACasJAAAJrAkAAA0CBywJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJrQkAAAmuCQAADQIHLQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmvCQAACbAJAAANAgcuCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbEJAAAJsgkAAA0CBy8JAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJswkAAAm0CQAADQIHMAkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm1CQAACbYJAAANAgcxCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbcJAAAJuAkAAA0CBzIJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJuQkAAAm6CQAADQIHMwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm7CQAACbwJAAANAgc0CQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACb0JAAAJvgkAAA0CBzUJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJvwkAAAnACQAADQIHNgkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmfCQAACaAJAAANAgc3CQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACaEJAAAJogkAAA0CBzgJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJowkAAAmkCQAADQIHOQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmlCQAACaYJAAANAgc6CQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACacJAAAJqAkAAA0CBzsJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJqQkAAAmqCQAADQIHPAkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmrCQAACawJAAANAgc9CQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACa0JAAAJrgkAAA0CBz4JAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJrwkAAAmwCQAADQIHPwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmxCQAACbIJAAANAgdACQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbMJAAAJtAkAAA0CB0EJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJtQkAAAm2CQAADQIHQgkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm3CQAACbgJAAANAgdDCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbkJAAAJugkAAA0CB0QJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJuwkAAAm8CQAADQIHRQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm9CQAACb4JAAANAgdGCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACb8JAAAJwAkAAA0CB0cJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJnwkAAAmgCQAADQIHSAkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmhCQAACaIJAAANAgdJCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACaMJAAAJpAkAAA0CB0oJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJpQkAAAmmCQAADQIHSwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmnCQAACagJAAANAgdMCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACakJAAAJqgkAAA0CB00JAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJqwkAAAmsCQAADQIHTgkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmtCQAACa4JAAANAgdPCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACa8JAAAJsAkAAA0CB1AJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJsQkAAAmyCQAADQIHUQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmzCQAACbQJAAANAgdSCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbUJAAAJtgkAAA0CB1MJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJtwkAAAm4CQAADQIHVAkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm5CQAACboJAAANAgdVCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbsJAAAJvAkAAA0CB1YJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJvQkAAAm+CQAADQIHVwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm/CQAACcAJAAANAgdYCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACZ8JAAAJoAkAAA0CB1kJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJoQkAAAmiCQAADQIHWgkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmjCQAACaQJAAANAgdbCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACaUJAAAJpgkAAA0CB1wJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJpwkAAAmoCQAADQIHXQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmpCQAACaoJAAANAgdeCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACasJAAAJrAkAAA0CB18JAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJrQkAAAmuCQAADQIHYAkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmvCQAACbAJAAANAgdhCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbEJAAAJsgkAAA0CB2IJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJswkAAAm0CQAADQIHYwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm1CQAACbYJAAANAgdkCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbcJAAAJuAkAAA0CB2UJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJuQkAAAm6CQAADQIHZgkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm7CQAACbwJAAANAgdnCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACb0JAAAJvgkAAA0CB2gJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJvwkAAAnACQAADQIHaQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmvCgAACbAKAAANAgdrCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbEKAAAJsgoAAA0CB20JAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJswoAAAm0CgAADQIHbwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm1CgAACbYKAAANAgdxCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbcKAAAJuAoAAA0CB3MJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJuQoAAAm6CgAADQIHdQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm7CgAACbwKAAANAgd3CQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACb0KAAAJvgoAAA0CB3kJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJvwoAAAnACgAADQIHewkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnBCgAACcIKAAANAgd9CQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACcMKAAAJxAoAAA0CB38JAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJxQoAAAnGCgAADQIHgQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnHCgAACcgKAAANAgeDCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACckKAAAJygoAAA0CB4UJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJywoAAAnMCgAADQIHhwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnNCgAACc4KAAANAgeJCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACc8KAAAJ0AoAAA0CB4sJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJ0QoAAAnSCgAADQIHjQkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAmvCgAACbAKAAANAgeOCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbEKAAAJsgoAAA0CB48JAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJswoAAAm0CgAADQIHkAkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm1CgAACbYKAAANAgeRCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACbcKAAAJuAoAAA0CB5IJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJuQoAAAm6CgAADQIHkwkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAm7CgAACbwKAAANAgeUCQAAAAEAAAAEAAAABCpEZXZFeHByZXNzLkRhdGEuRmlsdGVyaW5nLkNyaXRlcmlhT3BlcmF0b3IPAAAACb0KAAAJvgoAAA0CB5UJAAAAAQAAAAQAAAAEKkRldkV4cHJlc3MuRGF0YS5GaWx0ZXJpbmcuQ3JpdGVyaWFPcGVyYXRvcg8AAAAJvwoAAAnACgAADQIHlgkAAAABAAAABAAAAAQqRGV2RXhwcmVzcy5EYXRhLkZpbHRlcmluZy5Dcml0ZXJpYU9wZXJhdG9yDwAAAAnBCgAACcIKAAANAgeXCQAAAAEAAA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</property>
+  <property name="FormatRules" iskey="true" value="17">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="ColumnName">colSalesRank</property>
+      <property name="Name">Format0</property>
+      <property name="Enabled">false</property>
+      <property name="RuleType">#FormatConditionRule3ColorScale</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="MiddleType">Number</property>
+        <property name="Middle">150000</property>
+        <property name="MiddleColor">254, 194, 44</property>
+        <property name="PredefinedName">Green, Yellow, Red</property>
+        <property name="MinimumColor">140, 197, 66</property>
+        <property name="MaximumColor">234, 71, 71</property>
+        <property name="MinimumType">Number</property>
+        <property name="MaximumType">Number</property>
+        <property name="Minimum">1</property>
+        <property name="Maximum">20000000</property>
+      </property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="ColumnName">colNumReviews</property>
+      <property name="Name">Format1</property>
+      <property name="RuleType">#FormatConditionRuleDataBar</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="PredefinedName">Green Gradient</property>
+      </property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="ColumnName">colRating</property>
+      <property name="Name">Format2</property>
+      <property name="RuleType">#FormatConditionRuleDataBar</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="PredefinedName">Green Gradient</property>
+      </property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="ColumnName">colProfit</property>
+      <property name="Name">Format3</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">[Profit] &gt;= 4.0m</property>
+        <property name="PredefinedName">Green Fill</property>
+      </property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="ColumnName">colProfit</property>
+      <property name="Name">Format4</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">[Profit] Between(0.01m, 3.99m)</property>
+        <property name="PredefinedName">Yellow Fill, Yellow Text</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseForeColor">true</property>
+          </property>
+          <property name="ForeColor">Black</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="ColumnName">colProfit</property>
+      <property name="Name">Format5</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">[Profit] &lt;= 0.0m And [Profit] Is Not Null</property>
+        <property name="PredefinedName">Red Fill</property>
+      </property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="ColumnName">colROI</property>
+      <property name="Name">Format6</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">[ROI] &gt;= 0.30m</property>
+        <property name="PredefinedName">Green Fill</property>
+      </property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="ColumnName">colROI</property>
+      <property name="Name">Format7</property>
+      <property name="RuleType">#FormatConditionRuleValue</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Condition">Between</property>
+        <property name="Value1" type="System.Double">1E-05</property>
+        <property name="Value2" type="System.Double">0.29999</property>
+        <property name="PredefinedName">Yellow Fill, Yellow Text</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseForeColor">true</property>
+          </property>
+          <property name="ForeColor">Black</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="ColumnName">colROI</property>
+      <property name="Name">Format8</property>
+      <property name="RuleType">#FormatConditionRuleValue</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Condition">Less</property>
+        <property name="Value1" type="System.Decimal">0.00001</property>
+        <property name="PredefinedName">Red Fill</property>
+      </property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="ColumnName">colSalesRank</property>
+      <property name="Name">Format9</property>
+      <property name="RuleType">#FormatConditionRuleValue</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Condition">Between</property>
+        <property name="Value1" type="System.Int32">1</property>
+        <property name="Value2" type="System.Int32">100000</property>
+        <property name="PredefinedName">Green Fill</property>
+      </property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="ColumnName">colSalesRank</property>
+      <property name="Name">Format10</property>
+      <property name="RuleType">#FormatConditionRuleValue</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Condition">Between</property>
+        <property name="Value1" type="System.Int32">100001</property>
+        <property name="Value2" type="System.Int32">200000</property>
+        <property name="PredefinedName">Yellow Fill, Yellow Text</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseForeColor">true</property>
+          </property>
+          <property name="ForeColor">Black</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="ColumnName">colSalesRank</property>
+      <property name="Name">Format11</property>
+      <property name="RuleType">#FormatConditionRuleValue</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Condition">Greater</property>
+        <property name="Value1" type="System.String">200000</property>
+        <property name="PredefinedName">Red Fill</property>
+      </property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="ColumnName">colIsSoldByAmazon</property>
+      <property name="Name">Format12</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">[IsSoldByAmazon] = True</property>
+        <property name="PredefinedName">Red Fill</property>
+      </property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="ColumnName">colIsSoldByAmazon</property>
+      <property name="Name">Format13</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">[IsSoldByAmazon] &lt;&gt; True And Not IsNullOrEmpty([Title])</property>
+        <property name="PredefinedName">Green Fill</property>
+      </property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="ColumnName">colMargin</property>
+      <property name="Name">Format14</property>
+      <property name="RuleType">#FormatConditionRuleExpression</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Expression">[margin]&gt;=0.30m</property>
+        <property name="PredefinedName">Green Fill</property>
+      </property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="ColumnName">colMargin</property>
+      <property name="Name">Format15</property>
+      <property name="RuleType">#FormatConditionRuleValue</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Condition">Between</property>
+        <property name="Value1" type="System.Double">1E-05</property>
+        <property name="Value2" type="System.Double">0.29999</property>
+        <property name="PredefinedName">Yellow Fill, Yellow Text</property>
+        <property name="Appearance" isnull="true" iskey="true">
+          <property name="Options" isnull="true" iskey="true">
+            <property name="UseForeColor">true</property>
+          </property>
+          <property name="ForeColor">Black</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="ColumnName">colMargin</property>
+      <property name="Name">Format16</property>
+      <property name="RuleType">#FormatConditionRuleValue</property>
+      <property name="Rule" isnull="true" iskey="true">
+        <property name="Condition">Less</property>
+        <property name="Value1" type="System.Decimal">0.00001</property>
+        <property name="PredefinedName">Red Fill</property>
+      </property>
+    </property>
+  </property>
+  <property name="SortInfo">~Xtra#Base64AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFHcmlkLnYxNy4xLCBWZXJzaW9uPTE3LjEuMy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAADhEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvQ29sbGVjdGlvbgQAAAAKZ3JvdXBDb3VudAVjbG9uZQ9jbG9uZUdyb3VwQ291bnQTQ29sbGVjdGlvbkJhc2UrbGlzdAADAAMIsgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0RldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8sIERldkV4cHJlc3MuWHRyYUdyaWQudjE3LjEsIFZlcnNpb249MTcuMS4zLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dCBxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AgAAAAAAAAAJAwAAAAAAAAAJBAAAAAQDAAAAsgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0RldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8sIERldkV4cHJlc3MuWHRyYUdyaWQudjE3LjEsIFZlcnNpb249MTcuMS4zLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAwRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mb1tdAgAAAAgICQUAAAABAAAAAQAAAAQEAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QDAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQYAAAABAAAAFQAAAAcFAAAAAAEAAAAEAAAABC5EZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvAgAAAAkHAAAADQMQBgAAAAQAAAAJCAAAAA0DDAkAAAAZRGV2RXhwcmVzcy5YdHJhR3JpZC52MTcuMQUHAAAALkRldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8CAAAACVNvcnRPcmRlcgpDb2x1bW5OYW1lAAEICQAAAAEAAAAGCgAAAAljb2xNYXJnaW4BCAAAAAcAAAACAAAACQoAAAAL</property>
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>
